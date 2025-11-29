@@ -1,0 +1,88 @@
+/* ===== Global Styles ===== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ===== Header ===== */
+
+header {
+    background: #1c3d6e;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+.subtitle {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* ===== Navigation Bar ===== */
+
+nav {
+    background-color: #e1e5ec;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #d0d4db;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1c3d6e;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #102544;
+}
+
+/* ===== Content Boxes ===== */
+
+.content-box {
+    background: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px 30px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.content-box h2 {
+    margin-top: 0;
+    color: #1c3d6e;
+}
+
+/* Lists */
+.content-box ul {
+    margin-left: 20px;
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* ===== Footer ===== */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #1c3d6e;
+    color: white;
+    font-size: 0.9rem;
+}
