@@ -1,88 +1,132 @@
-/* ===== Global Styles ===== */
-
+/* ==== GLOBAL ==== */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f7;
+    background: #0c0c0f url("https://i.imgur.com/6H1vE7T.jpeg") repeat;
+    background-size: 400px;
     margin: 0;
-    padding: 0;
-    color: #333;
+    font-family: "Verdana", "Lucida Console", monospace;
+    color: #c9e8ff;
+    text-shadow: 0 0 4px #0ff;
 }
 
-/* ===== Header ===== */
+/* Main container frame */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: rgba(5, 10, 20, 0.75);
+    padding: 20px;
+    border: 3px solid #0ff;
+    box-shadow:
+        0 0 8px #00f2ff,
+        inset 0 0 12px #0088aa;
+}
 
+/* ==== HEADER ==== */
 header {
-    background: #1c3d6e;
-    color: white;
+    background: linear-gradient(180deg, #001822, #00060b);
+    border-bottom: 3px solid #00eaff;
+    padding: 20px;
     text-align: center;
-    padding: 40px 20px;
+    box-shadow: 0 0 15px #00d0ff;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.2rem;
+.logo {
+    font-family: "Lucida Console", monospace;
+    font-size: 34px;
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff;
 }
 
-.subtitle {
-    margin-top: 8px;
-    font-size: 1.1rem;
-    opacity: 0.9;
+.tagline {
+    color: #8fdfff;
+    font-size: 14px;
+    text-shadow: 0 0 6px #0077aa;
 }
 
-/* ===== Navigation Bar ===== */
-
+/* ==== NAV BAR ==== */
 nav {
-    background-color: #e1e5ec;
+    background: #00121a;
     padding: 10px;
     text-align: center;
-    border-bottom: 2px solid #d0d4db;
+    border-bottom: 3px solid #00eaff;
+    box-shadow: 0 0 10px #00b5ff;
 }
 
 nav a {
-    margin: 0 15px;
+    margin: 0 14px;
+    padding: 6px 12px;
+    color: #0ef;
+    background: #001f29;
+    border: 2px solid #0ef;
     text-decoration: none;
-    color: #1c3d6e;
     font-weight: bold;
-    transition: 0.2s;
+    border-radius: 3px;
+    box-shadow: inset 0 0 6px #00d1ff;
+    transition: 0.15s ease-in-out;
 }
 
 nav a:hover {
-    color: #102544;
+    background: #003545;
+    border-color: #66faff;
+    color: #e0faff;
+    box-shadow: 0 0 10px #00eaff;
 }
 
-/* ===== Content Boxes ===== */
-
-.content-box {
-    background: white;
-    max-width: 900px;
-    margin: 25px auto;
-    padding: 25px 30px;
-    border-radius: 6px;
-    border: 1px solid #dcdcdc;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+/* ==== TITLES ==== */
+.page-title {
+    font-family: "Lucida Console", monospace;
+    color: #00eaff;
+    font-size: 26px;
+    border-left: 6px solid #00eaff;
+    padding-left: 10px;
+    margin: 20px 0;
+    text-shadow: 0 0 8px #00baff;
 }
 
-.content-box h2 {
-    margin-top: 0;
-    color: #1c3d6e;
+/* ==== FEATURE BOX ==== */
+.feature-box {
+    border: 2px dashed #00eaff;
+    background: rgba(0, 25, 35, 0.7);
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 0 10px #00a3cc inset;
 }
 
-/* Lists */
-.content-box ul {
-    margin-left: 20px;
+/* ==== MINI COLUMNS ==== */
+.mini-columns {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
 }
 
-.note {
-    font-size: 0.9rem;
-    color: #666;
+.mini-box {
+    flex: 1;
+    background: rgba(0, 12, 18, 0.85);
+    border: 2px solid #00eaff;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 10px #008fb8;
 }
 
-/* ===== Footer ===== */
+.retro-link {
+    font-weight: bold;
+    color: #00eaff;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #00d5ff;
+}
 
+.retro-link:hover {
+    color: #b8fdff;
+    text-shadow: 0 0 8px #00eaff;
+}
+
+/* ==== FOOTER ==== */
 footer {
+    background: #000d13;
+    border-top: 3px solid #00eaff;
+    padding: 12px;
     text-align: center;
-    padding: 20px;
+    color: #8fdfff;
     margin-top: 40px;
-    background-color: #1c3d6e;
-    color: white;
-    font-size: 0.9rem;
+    font-size: 14px;
+    text-shadow: 0 0 6px #008fb8;
 }
