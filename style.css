@@ -10,7 +10,7 @@ body {
 
 /* Main container frame */
 .container {
-    max-width: 900px;
+    max-width: 1500px;
     margin: 30px auto;
     background: rgba(5, 10, 20, 0.75);
     padding: 20px;
